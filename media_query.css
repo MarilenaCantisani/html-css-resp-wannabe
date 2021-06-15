@@ -2,17 +2,21 @@
     body {
         margin: 0;
     }
-
+    
     .container h1, .container .grey h1 {
-        font-size: 50px;
+        font-size: 32px;
     }
     .container h3, .container .grey h3 {
-        font-size: 30px;
+        font-size: 22px;
         margin: 0;
     }
     
     div {
-        font-size: 28px;
+        font-size: 16px;
+    }
+
+    .container, .container .grey {
+        display: flex;
     }
 
     .container .row {
@@ -29,7 +33,7 @@
     }
 
     #lezioni .row>.left, #lezioni .row>.right {
-        width: 100%;
+        width: auto;
         padding-bottom: 50px;
 
     }
@@ -37,10 +41,11 @@
     #steps .row>.left, #steps .row>.central, #steps .row>.right {
         width: 100%;
         padding-bottom: 50px;
-
     }  
 
     hr {
         border: 1px solid black;
     }
+
+   
 }
