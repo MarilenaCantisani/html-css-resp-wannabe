@@ -14,7 +14,7 @@
         font-size: 28px;
     }
 
-    #lezioni .row {
+    .container .row {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -23,10 +23,16 @@
         padding-bottom: 10px;
         background-color: #f2f2cd;
     }
+    
+    #steps .row {
+        background-color: #fff; 
+    }
+
     #lezioni .row>.left, #lezioni .row>.right {
         width: 100%;
     }
 
-
-    
+    #steps .row>.left, #steps .row>.central, #steps .row>.right {
+        width: 100%;
+    }  
 }
