@@ -8,6 +8,7 @@
     }
     .container h3, .container .grey h3 {
         font-size: 30px;
+        margin: 0;
     }
     
     div {
@@ -20,7 +21,6 @@
         align-items: center;
         flex-basis: 100%;
         margin-top: 0;
-        padding-bottom: 10px;
         background-color: #f2f2cd;
     }
     
@@ -30,9 +30,17 @@
 
     #lezioni .row>.left, #lezioni .row>.right {
         width: 100%;
+        padding-bottom: 50px;
+
     }
 
     #steps .row>.left, #steps .row>.central, #steps .row>.right {
         width: 100%;
+        padding-bottom: 50px;
+
     }  
+
+    hr {
+        border: 1px solid black;
+    }
 }
